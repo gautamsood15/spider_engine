@@ -22,7 +22,7 @@ $(document).ready(function(){
 	
 	var grid = $(".imageResults");
 
-	grid.on("layoutCoplete", function() {
+	grid.on("layoutComplete", function() {
 		$(".gridItem img").css("visibility", "visible");
 	});
 
