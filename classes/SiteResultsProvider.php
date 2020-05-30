@@ -49,7 +49,7 @@
 				$title = $this->trimField($title, 55);
 				$description = $this->trimField($description, 80);
 
-				$resultsHtml .= "<div class='resultsContainer'>
+				$resultsHtml .= "<div class='resultContainer'>
 
 									<h3 class='title'>
 										<a class='result' href='$url' data-linkId='$id'>
