@@ -133,7 +133,7 @@ body {
 }
 
 .headerContent .searchBarContainer .searchButton img {
-	width: 22px
+    width: 50px;
 }
 
 .tabsContainer {
