@@ -1,4 +1,5 @@
 <?php 
+
 include("../config.php");
 
 if (isset($_POST["imageUrl"])) {
@@ -13,4 +14,5 @@ if (isset($_POST["imageUrl"])) {
 	echo "No image URL passed to page";
 
 }
+
 ?>
