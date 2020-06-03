@@ -100,15 +100,13 @@ function increaseLinkClicks(linkId, url) {
 	});
 }
 
-function increaseImageClicks(linkId, url) {
+function increaseImageClicks(imageUrl) {
 
-	$.post("ajax/updateLinkCount.php", {linkId: linkId})
+	$.post("ajax/updateImageCount.php", {imageUrl: imageUrl})
 	.done(function(result) {
 		if (result != "") {
 			alert(result);
 			return;
 		}
-
-		window.location.href = url;
 	});
 }
