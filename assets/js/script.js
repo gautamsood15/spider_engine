@@ -49,6 +49,9 @@ $(document).ready(function(){
 
         return caption;
     	
+    	},
+    	afterShow : function( instance, item ) {
+
     	}
 
 	});
@@ -96,3 +99,4 @@ function increaseLinkClicks(linkId, url) {
 		window.location.href = url;
 	});
 }
+
