@@ -51,7 +51,7 @@ $(document).ready(function(){
     	
     	},
     	afterShow : function( instance, item ) {
-
+    		increaseImageClicks(item.src);
     	}
 
 	});
@@ -100,3 +100,15 @@ function increaseLinkClicks(linkId, url) {
 	});
 }
 
+function increaseImageClicks(linkId, url) {
+
+	$.post("ajax/updateLinkCount.php", {linkId: linkId})
+	.done(function(result) {
+		if (result != "") {
+			alert(result);
+			return;
+		}
+
+		window.location.href = url;
+	});
+}
