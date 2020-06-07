@@ -36,6 +36,6 @@ TABLE NAME = images
 
 List of 3rd party CDN used:
 
-1. JQuery -- https://code.jquery.com/
-2. Masonly -- https://masonry.desandro.com/
-3. Fancybox -- http://fancyapps.com/fancybox/3/
+1. JQuery   --   https://code.jquery.com/
+2. Masonly  --   https://masonry.desandro.com/
+3. Fancybox --   http://fancyapps.com/fancybox/3/
