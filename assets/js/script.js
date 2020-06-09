@@ -39,10 +39,12 @@ $(document).ready(function(){
 	$("[data-fancybox]").fancybox({
 
 		caption : function( instance, item ) {
+
         	var caption = $(this).data('caption') || '';
+        	var siteUrl = $(this).data('siteurl') || '';
 
         	if ( item.type === 'image' ) {
-            	caption = (caption.length ? caption + '<br />' : '') + '<a href="' + item.src + '">Download image</a>' ;
+            	caption = (caption.length ? caption + '<br />' : '') + '<a href="' + item.src + '">View Image</a><br>' + '<a href="' + siteUrl + '">Visit Site</a>' ;
         	}
 
         return caption;
