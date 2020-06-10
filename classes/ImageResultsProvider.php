@@ -63,7 +63,7 @@
 
 
 				$resultsHtml .= "<div class='gridItem image$count'>
-									<a href='$imageUrl' data-fancybox data-caption='$displayText'>
+									<a href='$imageUrl' data-fancybox data-caption='$displayText' data-siteurl='#siteUrl'>
 
 										<script>
 											
