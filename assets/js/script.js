@@ -16,6 +16,9 @@ $(document).ready(function(){
 		return false;
 	});
 
+
+
+
 	
 	var grid = $(".imageResults");
 
@@ -29,6 +32,15 @@ $(document).ready(function(){
 		gutter: 5,
 		isInitLayout: false
 	});
+
+
+
+
+	$("[data-fancybox]").fancybox();
+
+
+
+
 
 });
 
