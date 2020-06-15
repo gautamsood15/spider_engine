@@ -32,3 +32,10 @@ TABLE NAME = images
 5 	title 	              varchar(512) 	
 6 	clicks 	              int(11) 	        DEFAULT = As Defined(0)
 7 	broken 	              tinyint(4) 		DEFAULT = As Defined(0)
+
+
+List of 3rd party CDN used:
+
+1. Jquery
+2. Masonly
+3. Fancybox
