@@ -17,7 +17,7 @@ TABLE NAME = sites
 3	title	              varchar(512)	
 4	description	          varchar(512)	
 5	keywords	          varchar(512)	
-6	clicks	              int(11)			
+6	clicks	              int(11)			DEFAULT = As Defined(0)
 
 
 -----------------------------------------------------------------------------------------------
@@ -30,5 +30,5 @@ TABLE NAME = images
 3 	imageUrl 	          varchar(512) 
 4 	alt 	              varchar(512) 	
 5 	title 	              varchar(512) 	
-6 	clicks 	              int(11) 	
-7 	broken 	              tinyint(4) 		
+6 	clicks 	              int(11) 	        DEFAULT = As Defined(0)
+7 	broken 	              tinyint(4) 		DEFAULT = As Defined(0)
