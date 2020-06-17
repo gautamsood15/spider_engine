@@ -51,7 +51,7 @@ function loadImage(src, className){
 
 		$("." + className).remove();
 
-		$.post("", {});
+		$.post("ajax/setBroken.php", {src: src});
 
 	});
 
