@@ -49,6 +49,10 @@ function loadImage(src, className){
 
 	image.on("error", function() {
 
+		$("." + className).remove();
+
+		$.post("", {});
+
 	});
 
 	image.attr("src", src);
