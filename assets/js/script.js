@@ -1,3 +1,5 @@
+var timer;
+
 $(document).ready(function(){
 
 	$(".result").on("click", function(){
@@ -32,9 +34,18 @@ function loadImage(src, className){
 
 	image.on("load", function() {
 		$("." + className + " a").append(image);
+
+		clearTimeout(timer);
+
+		timer = setTimeout(function() {
+			$(".imageResults").masonry();
+		}, 500);
+
 	});
 
-	image.on("error", function() {});
+	image.on("error", function() {
+		
+	});
 
 	image.attr("src", src);
 }
