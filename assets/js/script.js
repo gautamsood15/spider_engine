@@ -26,6 +26,19 @@ $(document).ready(function(){
 
 });
 
+function loadImage(src, className){
+
+	var image = $("<img>");
+
+	image.on("load", function() {
+		$("." + className + " a").append(image);
+	});
+
+	image.on("error", function() {});
+
+	image.attr("src", src);
+}
+
 
 function increaseLinkClicks(linkId, url) {
 
