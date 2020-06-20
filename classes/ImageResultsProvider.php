@@ -62,7 +62,15 @@
 
 				$resultsHtml .= "<div class='gridItem'>
 									<a href='$imageUrl'>
-										<img src='$imageUrl'>
+
+										<script>
+											
+											$(document).ready(function(){
+												loadImage(\"$imageUrl\");
+											});
+										
+										</script>
+
 										<span class='details'>$displayText</span>
 									</a>
 								</div>";				
