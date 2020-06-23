@@ -254,6 +254,7 @@ a .pageNumber {
 }
 
 .gridItem .details {
+	visibility: hidden;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -265,4 +266,8 @@ a .pageNumber {
 	padding: 3px;
 	box-sizing: border-box;
 	white-space: nowrap;
+}
+
+.gridItem:hover .details {
+	visibility: visible;
 }
