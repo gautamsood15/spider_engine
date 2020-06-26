@@ -239,3 +239,12 @@ body {
 a .pageNumber {
 	color: #4285f4;
 }
+
+.mainResultsSection .imageResults {
+	margin: 20px;
+}
+
+.gridItem img {
+	max-width: 200px;
+	min-width: 50px;
+}
