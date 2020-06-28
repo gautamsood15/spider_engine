@@ -48,6 +48,17 @@
 				$alt = $row["alt"];
 
 
+				if ($title) {
+					$displayText = $title;
+				}
+				else if ($alt) {
+					$displayText = $alt;
+				}
+				else {
+					$displayText = $imageUrl;
+				}
+
+				
 
 				$resultsHtml .= "<div class='resultsContainer'>
 
