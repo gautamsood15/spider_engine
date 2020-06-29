@@ -37,17 +37,17 @@
 			$query->bindParam(":pageSize", $pageSize, PDO::PARAM_INT);
 			$query->execute();
 
-			$resultsHtml = "<div class='siteResults'>";
+			$resultsHtml = "<div class='imageResults'>";
 
 			while($row = $query->fetch(PDO::FETCH_ASSOC)) {
 
 				$id = $row["id"];
-				$url = $row["url"];
+				$imageUrl = $row["imageUrl"];
+				$siteUrl = $row["siteUrl"];
 				$title = $row["title"];
-				$description = $row["description"];
+				$alt = $row["alt"];
 
-				$title = $this->trimField($title, 55);
-				$description = $this->trimField($description, 80);
+
 
 				$resultsHtml .= "<div class='resultsContainer'>
 
