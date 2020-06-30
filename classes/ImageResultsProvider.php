@@ -28,7 +28,7 @@
 
 			$fromLimit = ($page - 1) * $pageSize;
 
-			$query = $this->con->prepare("SELECT * FROM sites WHERE title LIKE :term OR url LIKE :term OR keywords LIKE :term OR description LIKE :term ORDER BY clicks DESC LIMIT :fromLimit, :pageSize");
+			$query = $this->con->prepare("SELECT * FROM images WHERE (title LIKE :term OR alt LIKE :term) AND broken=0 ORDER BY clicks DESC LIMIT :fromLimit, :pageSize");
 		
 
 			$searchTerm = "%". $term ."%";
