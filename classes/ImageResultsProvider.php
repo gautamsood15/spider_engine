@@ -10,7 +10,7 @@
 
 		public function getNumResults($term) {
 
-			$query = $this->con->prepare("SELECT COUNT(*) as total FROM images WHERE (title LIKE :term OR alt LIKE :term AND broken=0");
+			$query = $this->con->prepare("SELECT COUNT(*) as total FROM images WHERE (title LIKE :term OR alt LIKE :term) AND broken=0");
 		
 
 			$searchTerm = "%". $term ."%";
@@ -72,10 +72,6 @@
 			return $resultsHtml;
 
 		}
-
-
-
-
 	}
 
 
