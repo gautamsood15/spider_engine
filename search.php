@@ -47,7 +47,8 @@
 
 						<div class="searchBarContainer">
 
-							<input type="hidden" name="type" value="<?php echo  $type; ?>">
+							<input type="hidden" name="type" value="<?php echo  $type; ?>">  
+							
 							<input class="searchBox" type="text" name="query" value="<?php echo $query;?>">
 							<button class="searchButton">
 								<img src="assets/images/icons/icons_search.png">
