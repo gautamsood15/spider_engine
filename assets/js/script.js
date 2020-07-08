@@ -4,7 +4,12 @@ $(document).ready(function(){
 		
 		var id = $(this).attr("data-linkId");
 		var url = $(this).attr("href");
-		console.log(id);
+		
+		if (!id) {
+			alert("data-linkId attribute not found");
+		}
+
+		increaseLinkClicks(id, url);
 
 		return false;
 	});
