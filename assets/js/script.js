@@ -1,3 +1,8 @@
 $(document).ready(function(){
-	console.log("Hello");
+
+	$(".result").on("click", function(){
+		console.log("I was clicked");
+		return false;
+	});
+
 });
