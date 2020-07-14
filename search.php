@@ -23,6 +23,8 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+	<script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js" integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
