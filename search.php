@@ -122,7 +122,7 @@
 						$currentPage = 1;
 					}
 
-					while($pagesLeft != 0) {
+					while($pagesLeft != 0 && $currentPage <= $numPages) {
 
 						if($currentPage == $page) {
 							echo "<div class='pageNumberContainer'>
