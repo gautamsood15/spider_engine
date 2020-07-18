@@ -116,6 +116,8 @@
 					$numPages = ceil($numResults / $pageSize);
 					$pagesLeft = min($pagesToShow, $numPages);
 
+					$currentPage = $page - floor($pagesToShow / 2);
+
 					while($pagesLeft != 0) {
 
 						if($currentPage == $page) {
