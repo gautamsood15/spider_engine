@@ -119,12 +119,18 @@
 
 						if($currentPage == $page) {
 							echo "<div class='pageNumberContainer'>
-									<img src='assets/images/page.PNG'>
+									<img src='assets/images/pageSelected.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</div>";
 						}
 						else {
-							
+
+							echo "<div class='pageNumberContainer'>
+								<a href='search.php?query=$query&type=$type&page=$currentPage'>
+									<img src='assets/images/page.PNG'>
+									<span class='pageNumber'>$currentPage</span>
+								</a>
+								</div>";
 						}
 
 
