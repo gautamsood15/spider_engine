@@ -117,10 +117,16 @@
 
 					while($pagesLeft != 0) {
 
-						echo "<div class='pageNumberContainer'>
-								<img src='assets/images/page.PNG'>
-								<span class='pageNumber'>$currentPage</span>
-							</div>";
+						if($currentPage == $page) {
+							echo "<div class='pageNumberContainer'>
+									<img src='assets/images/page.PNG'>
+									<span class='pageNumber'>$currentPage</span>
+								</div>";
+						}
+						else {
+							
+						}
+
 
 						$currentPage++;
 						$pagesLeft--;
