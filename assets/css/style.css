@@ -230,3 +230,8 @@ body {
 	align-items: center;
 	text-decoration: none;
 }
+
+.pageNumber {
+	color: #000;
+	font-size: 13px;
+}
