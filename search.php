@@ -121,6 +121,9 @@
 								<img src='assets/images/page.PNG'>
 								<span class='pageNumber'>$currentPage</span>
 							</div>";
+
+						$currentPage++;
+						$pagesLeft--;
 					}
 
 
