@@ -219,3 +219,7 @@ body {
 .pageButtons {
 	display: flex;
 }
+
+.pageNuberContainer img {
+	height: 37px;
+}
