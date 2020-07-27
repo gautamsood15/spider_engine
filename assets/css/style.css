@@ -210,3 +210,6 @@ body {
  	font-size: 12px;
  }
 
+.paginationContainer {
+	display: flex;
+}

@@ -100,6 +100,18 @@
 			
 		</div>
 
+		<div class="paginationContainer">
+
+			<div class="pageButtons">
+				<img src="assets/images/pageStart.png">
+			</div>
+
+			<div class="pageButtons">
+				<img src="assets/images/pageEnd.png">
+			</div>
+
+		</div>
+
 
 	</div>
 
