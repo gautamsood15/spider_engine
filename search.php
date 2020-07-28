@@ -86,12 +86,13 @@
 			<?php
 			
 				$resultsProvider = new SiteResultsProvider($con);
+				$pageLimit = 20;
 
 				$numResults = $resultsProvider->getNumResults($query);
 
 				echo "<p class='resultsCount'> $numResults results found</p>";
 
-				echo $resultsProvider->getResultsHtml(1, 20, $query);
+				echo $resultsProvider->getResultsHtml(1, $pageLimit, $query);
 
 			?>
 			
