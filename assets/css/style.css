@@ -201,4 +201,8 @@ body {
  	text-decoration: underline;
  }
 
- 
+ .resultContainer .url {
+ 	color: #006621;
+ 	font-size: 14px;
+ }
+
