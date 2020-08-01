@@ -196,3 +196,9 @@ body {
  	font-weight: normal;
  	font-size: 18px;
  }
+
+ .resultContainer .title a:hover {
+ 	text-decoration: underline;
+ }
+
+ 
