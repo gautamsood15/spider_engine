@@ -189,3 +189,10 @@ body {
 .resultContainer .title { 
 	margin: 0;
  }
+
+ .resultContainer .title a {
+ 	color: #1a0dab;
+ 	text-decoration: none;
+ 	font-weight: normal;
+ 	font-size: 18px;
+ }
