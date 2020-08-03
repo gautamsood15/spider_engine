@@ -185,3 +185,7 @@ body {
 	flex-direction: column;
 	margin-bottom: 26px;
 }
+
+.resultContainer .title { 
+	margin: 0;
+ }
