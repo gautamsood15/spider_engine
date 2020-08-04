@@ -179,3 +179,9 @@ body {
 .mainResultsSection .siteResults {
 	margin-left: 150px;
 }
+
+.resultContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 26px;
+}
