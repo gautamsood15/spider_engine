@@ -45,8 +45,12 @@
 				$resultsHtml .= "<div class='resultsContainer'>
 
 									<h3 class='title'>
-										<a class='result' href='$url'
+										<a class='result' href='$url'>
+											$title
+										</a>
 									</h3>
+									<span class='url'>$url</span>
+									<span class='description'>$description</span>
 
 									</div>";
 
