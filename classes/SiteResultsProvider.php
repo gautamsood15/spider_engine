@@ -44,6 +44,9 @@
 
 				$resultsHtml .= "<div class='resultsContainer'>
 
+									<h3 class='title'>
+										<a class='result' href='$url'
+									</h3>
 
 									</div>";
 
