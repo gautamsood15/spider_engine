@@ -42,7 +42,12 @@
 				$title = $row["title"];
 				$description = $row["description"];
 
-				
+				$resultsHtml .= "<div class='resultsContainer'>
+
+
+									</div>";
+
+
 				
 
 			}
