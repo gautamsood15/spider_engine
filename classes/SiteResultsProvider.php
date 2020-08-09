@@ -26,7 +26,7 @@
 
 		public function getResultsHtml($page, $pageSize, $term){
 
-			query = $this->con->prepare("SELECT * FROM sites WHERE title LIKE :term OR url LIKE :term OR keywords LIKE :term OR description LIKE :term ORDER BY clicks DESC");
+			$query = $this->con->prepare("SELECT * FROM sites WHERE title LIKE :term OR url LIKE :term OR keywords LIKE :term OR description LIKE :term ORDER BY clicks DESC");
 		
 
 			$searchTerm = "%". $term ."%";
@@ -44,6 +44,10 @@
 
 
 			$resultsHtml .= "</div>";
+
+			return $resultsHtml;
+
+
 
 
 		}
