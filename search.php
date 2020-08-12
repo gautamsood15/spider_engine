@@ -88,7 +88,7 @@
 
 				$numResults = $resultsProvider->getNumResults($query);
 
-				echo "<p class='resultsCount'>$numResults results found</p>";
+				echo "<p class='resultsCount'> $numResults results found</p>";
 
 			?>
 			
