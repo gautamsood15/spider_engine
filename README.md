@@ -1,0 +1,1 @@
+SPYDER_ENGINE is a web search engine that crawles the web and allows user to search it 
