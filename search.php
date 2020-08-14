@@ -19,7 +19,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to Doodle</title>
+	<title>Welcome to Spider Engine</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
