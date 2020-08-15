@@ -1,6 +1,7 @@
 <?php
 
 	include("config.php");
+	include("classes/SiteResultsProvider.php");
 
 	if(isset($_GET["query"])) {
 		$query = $_GET["query"];
@@ -81,6 +82,13 @@
 
 
 		<div class="mainResultsSection">
+
+			<?php
+				$resultsProvider = new SiteResultsProvider($con);
+
+				echo $resultsProvider->getNumResults($query);
+
+			?>
 			
 			
 		</div>
