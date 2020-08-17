@@ -193,7 +193,7 @@
 
 	}
 
-	$startUrl = "http://www.bbc.com";
+	$startUrl = "https://en.wikipedia.org/wiki/List_of_equipment_of_the_British_Army";
 	
 	followLinks($startUrl);
 
