@@ -33,7 +33,7 @@
 			return $this->doc->getElementsByTagName("meta");
 		}
 
-		public function getImanges() {
+		public function getImages() {
 
 			return $this->doc->getElementsByTagName("img");
 		}

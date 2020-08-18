@@ -36,6 +36,21 @@
 		return $query->execute();
 	}
 
+
+	
+	function insertImage($url, $src, $alt, $title) {
+		global $con;
+
+		$query = $con->prepare("INSERT INTO images(siteUrl, imageUrl, alt, title) VALUES(:siteUrl, :imageUrl, :alt, :title)");
+
+		$query->bindParam(":siteUrl", $url);
+		$query->bindParam(":imageUrl", $src);
+		$query->bindParam(":alt", $alt);
+		$query->bindParam(":title", $title);
+
+		$query->execute();
+	}
+
 	
 	function createLink($src, $url) {
 
@@ -64,6 +79,8 @@
 
 
 	function getDetails($url) {
+
+		global $alreadyFoundImages;
 
 		$parser = new DomDocumentParser($url);
 
@@ -129,7 +146,7 @@
 			if(!in_array($src, $alreadyFoundImages)) {
 				$alreadyFoundImages[] = $src;
 
-				// Insert the image
+				insertImage($url, $src, $alt, $title);
 			}
 
 		}
@@ -165,8 +182,6 @@
 
 				getDetails($href);
 			}
-			else { return; }
-
 
 		}
 
