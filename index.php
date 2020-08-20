@@ -20,7 +20,7 @@
 
 			<div class="logoContainer">
 				
-				<img src="assets/images/logo.png">  
+				<img src="assets/images/logo.PNG" title="Logo Image" alt="Logo Image">  
 				
 			</div>
 

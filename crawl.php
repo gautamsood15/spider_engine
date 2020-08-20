@@ -109,12 +109,13 @@
 		}
 		else {
 			echo "ERROR: Failed to insert $url<br>";
-		}
-
-
-		
+		}	
 	
 	}
+
+
+
+	$imageArray
 
 
 
