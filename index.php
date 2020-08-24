@@ -12,14 +12,14 @@
 			
 		</div>
 
-		<dir class="searchContainer">
+		<div class="searchContainer">
 
 			<form action="search.php" method="GET">
 				<input type="text" name="query" class="searchBox">
 				<input type="submit" value="Search" class="searchButton">
 			</form>
 
-		</dir>
+		</div>
 		
 
 	</div>
