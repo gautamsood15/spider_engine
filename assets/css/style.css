@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper.indexPage {
-	justify-content: conter;
+	justify-content: center;
 }
 
 .mainSection {
@@ -25,3 +25,46 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+
+.mainSection .searchContainer {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.mainSection .searchContainer form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.searchContainer .searchButton {
+	color: #757575;
+	background-color: #f5f5f5;
+	border: none;
+	height: 36px;
+	width: 125px;
+	border-radius: 1px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 20px;
+	cursor: pointer;
+	outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
