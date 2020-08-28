@@ -1,5 +1,4 @@
 * {
-
 	font-family: arial, sans-serif;
 	color: #545454;
 }
@@ -11,9 +10,11 @@ body {
 }
 
 .wrapper {
+
 	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+    flex-direction: column;
+    min-height: 100%;
+	
 }
 
 .wrapper.indexPage {
@@ -28,7 +29,7 @@ body {
 
 .mainSection .searchContainer {
 	margin-top: 20px;
-	width: 100%;
+    width: 100%;
 }
 
 .mainSection .searchContainer form {
@@ -38,32 +39,33 @@ body {
 }
 
 .searchContainer .searchButton {
+
 	color: #757575;
-	background-color: #f5f5f5;
-	border: none;
-	height: 36px;
-	width: 125px;
-	border-radius: 1px;
-	font-size: 13px;
-	font-weight: bold;
-	margin-top: 20px;
-	cursor: pointer;
-	outline: none;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
 
 }
 
 .mainSection .searchContainer .searchBox {
 	border: none;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);                                                                          
-	height: 44px;
-	border-radius: 2px;
-	outline: none;
-	padding: 10px;
-	box-sizing: border-box;
-	font-size: 16px;
-	width: 70%;
-	max-width: 630px;
-	color: #000;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height: 44px;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
 }
 
 .mainSection .logoContainer {
@@ -80,24 +82,23 @@ body {
 	border-bottom: 1px solid #ebebeb;
 }
 
+.wrapper .headerContent {
+	display: flex;
+	align-items: center;
+}
+
 .headerContent .logoContainer {
 	width: 150px;
 	padding: 5px 20px;
 	box-sizing: border-box;
 }
 
+.headerContent .searchContainer {
+	flex: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.headerContent .searchContainer form {
+	margin: 15px 0 28px 0;
+}
 
 
