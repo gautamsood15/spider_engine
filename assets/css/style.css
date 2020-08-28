@@ -75,8 +75,16 @@ body {
 	width: 100%;
 }
 
+.header {
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #ebebeb;
+}
 
-
+.headerContent .logoContainer {
+	width: 150px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
 
 
 

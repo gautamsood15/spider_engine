@@ -17,7 +17,7 @@
 				<div class="logoContainer">
 					
 					<a href="index.php">
-						<img src="assets/images/spider2.png">
+						<img src="assets/images/spider3.png">
 					</a>
 
 				</div>
