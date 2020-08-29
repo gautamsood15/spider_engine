@@ -6,6 +6,8 @@
 	else {
 		exit("You must enter a search query");
 	}
+
+	$type  = isset($_GET["type"]) ? $_GET["type"] : "sites";
 ?>
 
 
@@ -56,13 +58,13 @@
 
 				<ul class="tabList">
 
-					<li>
+					<li class="<?php echo $type == 'sites' ? 'active' : '' ?>">
 						<a href='<?php echo "search.php?query=$query&type=sites"; ?>'>
 							Sites
 						</a>
 					</li>
 
-					<li>
+					<li class="<?php echo $type == 'images' ? 'active' : '' ?>">
 						<a href='<?php echo "search.php?query=$query&type=images"; ?>'>
 							Images
 						</a>
