@@ -14,7 +14,7 @@
 
 			<div class="logoContainer">
 				
-				<img src="assets/images/spider3.png">  
+				<img src="assets/images/logo.png">  
 				
 			</div>
 
