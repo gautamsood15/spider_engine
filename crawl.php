@@ -51,7 +51,27 @@
 			return;
 		}
 
-		echo "URL: $url, Title: $title<br>";
+		$description = "";
+		$keywords = "";
+
+		$metasArray = $parser->getMetatags();
+
+		foreach($metasArray as $meta) {
+
+			if ($meta->getAttribute("name") == "description") {
+				$description = $meta->getAttribute("content");
+			}
+
+			if ($meta->getAttribute("name") == "keywords") {
+				$keywords = $meta->getAttribute("content");
+			}
+		}
+
+		$description = str_replace("\n", "", $description);
+		$keywords = str_replace("\n", "", $keywords);
+
+
+		echo "URL: $url, Description: $description, keywords: $keywords, Title: $title<br>";
 	
 	}
 
@@ -99,7 +119,7 @@
 
 	}
 
-	$startUrl = "https://en.wikipedia.org/wiki/Frontline_(American_TV_program)";
+	$startUrl = "http://www.bbc.com";
 	
 	followLinks($startUrl);
 

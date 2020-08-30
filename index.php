@@ -3,6 +3,12 @@
 <head>
 	<title>Welcome to Spider Engine</title>
 
+	<meta charset="UTF-8">
+  	<meta name="description" content="Search the web for sites and images.">
+  	<meta name="keywords" content="Search engine, spider, web search">
+  	<meta name="author" content="Gautam Sood">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
