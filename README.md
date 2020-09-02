@@ -9,7 +9,7 @@ Xampp server is required to run the search engine
 
 Schema for database for saving all the sites data.
 
-Table_name = sites
+Table NAME = sites
 
 
 1	id    Primary(AI)	  int(11)		
