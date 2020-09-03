@@ -102,13 +102,13 @@
 
 
 		if (linkExists($url)) {
-			echo "$url already exists";
+			echo "$url already exists<br>";
 		}
 		else if (insertLink($url, $title, $description, $keywords)) {
-			echo "SUCCESS: $url";
+			echo "SUCCESS: $url<br>";
 		}
 		else {
-			echo "ERROR: Failed to insert $url";
+			echo "ERROR: Failed to insert $url<br>";
 		}
 
 
