@@ -7,7 +7,9 @@ It is made up of JS, PHP, and MySql to store all the data.
 Xampp server is required to run the search engine
 
 
+Schema for database for saving all the sites data.
 
+Table_name = sites
 
 
 1	id    Primary(AI)	  int(11)		
