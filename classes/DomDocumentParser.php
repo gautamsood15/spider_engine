@@ -33,5 +33,10 @@
 			return $this->doc->getElementsByTagName("meta");
 		}
 
+		public function getImanges() {
+
+			return $this->doc->getElementsByTagName("img");
+		}
+
 	}
 ?>
