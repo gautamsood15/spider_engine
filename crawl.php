@@ -108,7 +108,7 @@
 			echo "SUCCESS: $url";
 		}
 		else {
-			
+			echo "ERROR: Failed to insert $url";
 		}
 
 
