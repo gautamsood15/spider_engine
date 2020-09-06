@@ -1,5 +1,7 @@
 <?php
 
+	include("config.php");
+
 	if(isset($_GET["query"])) {
 		$query = $_GET["query"];
 	}
