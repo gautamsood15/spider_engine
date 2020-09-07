@@ -16,8 +16,8 @@
 		$query->bindParam(":url", $url);
 		
 		$query->execute();
-		
-		return 
+
+		return $query->rowCount() != 0;
 	}
 
 
@@ -101,7 +101,18 @@
 		$keywords = str_replace("\n", "", $keywords);
 
 
-		insertLink($url, $title, $description, $keywords);
+		if (linkExists($url)) {
+			echo "$url already exists";
+		}
+		else if (insertLink($url, $title, $description, $keywords)) {
+			echo "SUCCESS: $url";
+		}
+		else {
+			
+		}
+
+
+		
 	
 	}
 
