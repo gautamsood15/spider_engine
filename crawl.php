@@ -7,6 +7,21 @@
 	$alreadyCrawled = array();
 	$crawling = array();
 
+
+	function linkExists($url) {
+		global $con;
+
+		$query = $con->prepare("SELECT * FROM sites WHERE url = :url");
+
+		$query->bindParam(":url", $url);
+		
+		$query->execute();
+		
+		return 
+	}
+
+
+
 	function insertLink($url, $title, $description, $keywords) {
 		global $con;
 
