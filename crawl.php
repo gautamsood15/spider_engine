@@ -193,7 +193,7 @@
 
 	}
 
-	$startUrl = "https://en.wikipedia.org/wiki/List_of_equipment_of_the_British_Army";
+	$startUrl = "https://en.wikipedia.org/wiki/List_of_equipment_of_the_United_States_Army";
 	
 	followLinks($startUrl);
 
