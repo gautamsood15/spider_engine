@@ -84,6 +84,7 @@
 		<div class="mainResultsSection">
 
 			<?php
+			
 				$resultsProvider = new SiteResultsProvider($con);
 
 				$numResults = $resultsProvider->getNumResults($query);
