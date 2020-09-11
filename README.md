@@ -19,3 +19,16 @@ TABLE NAME = sites
 5	keywords	          varchar(512)	
 6	clicks	              int(11)			
 
+
+-----------------------------------------------------------------------------------------------
+
+
+TABLE NAME = images
+
+1 	id    Primary(AI) 	  int(11) 			
+2 	siteUrl 	          varchar(512) 	 	
+3 	imageUrl 	          varchar(512) 
+4 	alt 	              varchar(512) 	
+5 	title 	              varchar(512) 	
+6 	clicks 	              int(11) 	
+7 	broken 	              tinyint(4) 		
