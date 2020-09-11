@@ -37,8 +37,13 @@
 
 			while($row = $query->fetch(PDO::FETCH_ASSOC)) {
 
+				$id = $row["id"];
+				$url = $row["url"];
 				$title = $row["title"];
-				$resultsHtml .= "$title <br>";
+				$description = $row["description"];
+
+				
+				
 
 			}
 
@@ -47,11 +52,7 @@
 
 			return $resultsHtml;
 
-
-
-
 		}
-
 	}
 
 
