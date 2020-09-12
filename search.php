@@ -149,6 +149,14 @@
 						$pagesLeft--;
 					}
 
+					if($numPages == 0) {
+							echo "<div class='pageNumberContainer'>
+									<img src='assets/images/pageSelected.PNG'>
+									<span class='pageNumber'>$currentPage</span>
+								</div>";						
+
+					}
+
 
 
 				?>

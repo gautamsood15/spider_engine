@@ -119,21 +119,20 @@ body {
 	padding: 12px;
 	font-size: 16px;
 	color: #000;
-	outline: none;
 }
 
 .headerContent .searchBarContainer .searchButton {
 	background-color: #fff;
 	height: 44px;
 	margin-top: 0;
-	width: 50px;
-	padding-right: 10px;
+	width: 44px;
+	padding-right: 20px;
 	display: flex;
 	justify-content: center;
 }
 
 .headerContent .searchBarContainer .searchButton img {
-	width: 40px;
+	width: 22px
 }
 
 .tabsContainer {
@@ -165,7 +164,6 @@ body {
 	color: #1A73E8;
 }
 
-
 .mainResultsSection {
 	flex: 1;
 }
@@ -186,29 +184,29 @@ body {
 	margin-bottom: 26px;
 }
 
-.resultContainer .title { 
+.resultContainer .title {
 	margin: 0;
- }
+}
 
- .resultContainer .title a {
- 	color: #1a0dab;
- 	text-decoration: none;
- 	font-weight: normal;
- 	font-size: 18px;
- }
+.resultContainer .title a {
+	color: #1a0dab;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 18px;
+}
 
- .resultContainer .title a:hover {
- 	text-decoration: underline;
- }
+.resultContainer .title a:hover {
+	text-decoration: underline;
+}
 
- .resultContainer .url {
- 	color: #006621;
- 	font-size: 14px;
- }
+.resultContainer .url {
+	color: #006621;
+	font-size: 14px;
+}
 
- .resultContainer .description {
- 	font-size: 12px;
- }
+.resultContainer .description {
+	font-size: 12px;
+}
 
 .paginationContainer {
 	display: flex;
@@ -220,7 +218,7 @@ body {
 	display: flex;
 }
 
-.pageNuberContainer img {
+.pageNumberContainer img {
 	height: 37px;
 }
 
@@ -240,8 +238,3 @@ body {
 a .pageNumber {
 	color: #4285f4;
 }
-
-
-
-
-

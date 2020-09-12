@@ -47,7 +47,7 @@
 				$description = $row["description"];
 
 				$title = $this->trimField($title, 55);
-				$description = $this->trimField($description, 230);
+				$description = $this->trimField($description, 100);
 
 				$resultsHtml .= "<div class='resultsContainer'>
 
