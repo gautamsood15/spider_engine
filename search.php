@@ -104,17 +104,38 @@
 
 			<div class="pageButtons">
 
-				<div class="pageNumberContainer">
-					<img src="assets/images/pageStart.png">
-				</div>
 
 				<div class="pageNumberContainer">
-					<img src="assets/images/pageEnd.png">
+					<img src="assets/images/pageStart.PNG">
 				</div>
+
+
+				<?php 
+
+					$currentPage = 1;
+					$pagesLeft = 10;
+
+					while($pagesLeft != 0) {
+
+						echo "<div class='pageNumberContainer'>
+								<img src='assets/images/page.PNG'>
+								<span class='pageNumber'>$currentPage</span>
+							</div>";
+					}
+
+
+
+				?>
+
+
+				<div class="pageNumberContainer">
+					<img src="assets/images/pageEnd.PNG">
+				</div>
+
 
 			</div>
-		</div>
 
+		</div>
 
 	</div>
 
