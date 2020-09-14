@@ -130,7 +130,7 @@
 
 						if($currentPage == $page) {
 							echo "<div class='pageNumberContainer'>
-									<img src='assets/images/PageD.PNG'>
+									<img src='assets/images/PageSelected.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</div>";
 						}
@@ -151,7 +151,7 @@
 
 					if($numPages == 0) {
 							echo "<div class='pageNumberContainer'>
-									<img src='assets/images/PageD.PNG'>
+									<img src='assets/images/PageSelected.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</div>";						
 
