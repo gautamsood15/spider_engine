@@ -51,7 +51,7 @@
 							
 							<input class="searchBox" type="text" name="query" value="<?php echo $query;?>">
 							<button class="searchButton">
-								<img src="assets/images/icons/icons_search.png">
+								<img src="assets/images/icons/search_box.png">
 							</button>
 						</div>
 
