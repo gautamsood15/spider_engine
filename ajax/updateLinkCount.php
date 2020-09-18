@@ -1,5 +1,5 @@
 <?php 
-include("../conf.php");
+include("../config.php");
 
 if (isset($_POST["linkId"])) {
 
