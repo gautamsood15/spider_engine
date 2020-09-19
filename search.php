@@ -110,7 +110,7 @@
 
 
 				<div class="pageNumberContainer">
-					<img src="assets/images/PageStart.PNG">
+					<img src="assets/images/SPI.PNG">
 				</div>
 
 
@@ -134,7 +134,7 @@
 
 						if($currentPage == $page) {
 							echo "<div class='pageNumberContainer'>
-									<img src='assets/images/PageSelected.PNG'>
+									<img src='assets/images/DSelect.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</div>";
 						}
@@ -142,7 +142,7 @@
 
 							echo "<div class='pageNumberContainer'>
 								<a href='search.php?query=$query&type=$type&page=$currentPage'>
-									<img src='assets/images/PageD.PNG'>
+									<img src='assets/images/D.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</a>
 								</div>";
@@ -155,7 +155,7 @@
 
 					if($numPages == 0) {
 							echo "<div class='pageNumberContainer'>
-									<img src='assets/images/PageSelected.PNG'>
+									<img src='assets/images/DSelect.PNG'>
 									<span class='pageNumber'>$currentPage</span>
 								</div>";						
 
@@ -167,7 +167,7 @@
 
 
 				<div class="pageNumberContainer">
-					<img src="assets/images/PageEnd.PNG">
+					<img src="assets/images/ER.PNG">
 				</div>
 
 
