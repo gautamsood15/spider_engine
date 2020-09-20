@@ -19,6 +19,10 @@ $(document).ready(function(){
 	
 	var grid = $(".imageResults");
 
+	grid.on("layoutCoplete", function() {
+		$(".gridItem img").css("visibility", "visible");
+	});
+
 	grid.masonry({
 		itemSelector:".gridItem",
 		columnWidth: 200,
@@ -44,7 +48,7 @@ function loadImage(src, className){
 	});
 
 	image.on("error", function() {
-		
+
 	});
 
 	image.attr("src", src);
